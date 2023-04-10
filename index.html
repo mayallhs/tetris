@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Tetris Game</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="icon.png" />
+  </head>
+  <body id="body-style">
+    <section id="head">
+        <img id="logo" src="logo.png" alt="tetrisgame">
+    </section>
+
+    <section id="main">
+        <div>
+            <canvas class="canvas" id="canvas" width="400" height="800"> </canvas>
+            <canvas
+            id="nextShapeCanvas"
+            width="200"
+            height="200"
+            style="position: absolute; top: 136px;
+            left: 1500px;"
+            >
+            </canvas>
+
+            <canvas
+            id="scoreCanvas"
+            width="900"
+            height="200"
+            style="position: absolute; top: 353px; left:1410px"
+            >
+            </canvas>
+            
+            <button id="reset" onClick="resetVars()" style="position: absolute; top: 500px; left:1480px">
+                Reset Game
+            </button>
+         </div>
+
+    </section>
+
+    
+    <img id="image" src="rotations.png" style="display: none" />
+
+    <script src="tetrisgame.js"></script>
+  </body>
+</html>

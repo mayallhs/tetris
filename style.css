@@ -1,0 +1,74 @@
+/* variables */
+:root {
+    /* Colors */
+    --primary-color: #35a0f8;
+    --secondary-color: #9fdefc;
+    --bg-primary: #ffffff;
+    --text-color: #222222;
+    --text-color-two: #ffffff;
+    --bg-secondary: #000000;
+    --card-background: #f4f4f4;
+    --bg-secondary-two: #111111;
+  
+    --shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  
+    /* Font Weight */
+    --weight-small: 400;
+    --weight-semibold: 600;
+    --weight-bold: 800;
+  
+    /* Max width */
+    --width-small: 600px;
+    --width-medium: 1100px;
+    --width-large: 1300px;
+  }
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    background-color: #5ab1e3 !important;
+}
+
+button:active {
+    background-color: #0084ff !important;
+}
+
+#body-style{
+    background-color:#000000;
+}
+
+#head{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 9%;
+    margin: 0px 0px 23px 0px;
+}
+
+#logo{
+    height: 5.5rem;
+    width: 8.5rem;
+}
+
+#main{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 0px 23px 0px;
+}
+
+#reset{
+    display: inline-block;
+    padding: 0.75rem 1.9rem;
+    border-radius: 30px;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+  
